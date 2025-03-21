@@ -14,7 +14,7 @@
     "table": "your_table" 
   },
   "logging": {
-    "log_file": "logs/app.log",  
+    "log_file": "logging/logging_config.log",  
     "log_level": "INFO"
   }
 }

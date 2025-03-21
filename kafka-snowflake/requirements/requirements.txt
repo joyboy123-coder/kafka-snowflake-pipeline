@@ -1,0 +1,17 @@
+# Kafka client library for Python  
+kafka-python  
+
+# Snowflake connector for Python  
+snowflake-connector-python  
+
+# Data manipulation and transformation  
+pandas  
+
+# JSON parsing and handling  
+json  
+
+# Logging framework  
+logging  
+
+# Snowflake connector with pandas support (includes write_pandas)  
+snowflake-connector-python[pandas]  

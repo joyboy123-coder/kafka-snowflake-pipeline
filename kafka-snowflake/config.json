@@ -14,7 +14,8 @@
     "table": "your_table" 
   },
   "logging": {
-    "log_file": "logging/logging_config.log",  
+    "producer_log_file": "producer/logging/logging_config.log",    
+    "consumer_log_file": "consumer/logging/logging_config.log",  
     "log_level": "INFO"
   }
 }

@@ -50,7 +50,7 @@ By using a config file, it becomes **easier to change settings** without modifyi
 
 ## 🚀 Running the Consumer  
 
-### ✅ **Step 1: Install Dependencies**  
+### ✅ **Run the Consumer and get cleaned data only**  
 Run this in terminal (CMD):
 ```bash
 python consumer.py

@@ -1,30 +1,24 @@
-# 📌 Project Dependencies  
+# Kafka and Snowflake Integration
 
-Below are the key libraries used in this project and their purposes:  
+This project demonstrates how to stream data from Kafka to Snowflake. The setup involves configuring Kafka consumers and producers, and using Snowflake for storing and querying data.
 
-### 🔹 Kafka Client Library  
-- **`kafka-python`** → Used to connect with **Apache Kafka**, send data (producer), and consume data (consumer).  
+## Prerequisites
 
-### 🔹 Snowflake Connector  
-- **`snowflake-connector-python`** → Helps in establishing a connection between Python and **Snowflake**, allowing queries and data transfers.  
+- **Kafka**: You need a running Kafka broker.
+- **Snowflake**: You need a Snowflake account with credentials to access your warehouse, database, and schema.
+- **Python**: The project uses Python for Kafka and Snowflake integration.
+- **Libraries**: The following Python libraries are required:
+  - `kafka-python` - For interacting with Kafka
+  - `snowflake-connector-python` - For connecting to Snowflake
+  - `pandas` - For data manipulation
+  - `json` - For parsing JSON
+  - `logging` - For logging application events
+  - `faker` - For generating fake data
+  - `time` - For handling time-related operations
 
-### 🔹 Data Manipulation  
-- **`pandas`** → Used for handling, transforming, and preparing **structured data** before sending it to Snowflake.  
+## Setup Instructions
 
-### 🔹 JSON Parsing  
-- **`json`** → Helps in reading and writing **JSON-formatted** data, often used for configurations and messages.  
-
-### 🔹 Logging Framework  
-- **`logging`** → Used to track errors, warnings, and execution flow for both producers and consumers.  
-
-### 🔹 Snowflake + Pandas  
-- **`snowflake-connector-python[pandas]`** → Adds support for **write_pandas**, allowing **efficient DataFrame uploads** to Snowflake.  
-
----
-
-## 🚀 How to Run the Project  
-
-### 1️⃣ Install Dependencies  
-Open **Command Prompt** and run:  
-```bash
-pip install -r requirements.txt
+1. **Install Python Libraries**  
+   Install the required libraries using `pip`. You can install them by running:
+   ```bash
+   pip install -r requirements.txt

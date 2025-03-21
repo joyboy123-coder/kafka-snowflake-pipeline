@@ -15,3 +15,9 @@ logging
 
 # Snowflake connector with pandas support (includes write_pandas)  
 snowflake-connector-python[pandas]  
+
+# Time module for working with time-related functions  
+time  
+
+# Faker library for generating fake data, often used for testing  
+faker  

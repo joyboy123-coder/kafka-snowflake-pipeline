@@ -14,7 +14,7 @@ def load_config(config_file="config.json"):
 
 # Set up logging using values from the config file
 def setup_logging(config):
-    log_file = config['logging']['log_file']
+    log_file = config['logging']['producer_log_file']
     log_level = getattr(logging, config['logging']['log_level'].upper(), logging.INFO)
 
     # Ensure logs directory exists

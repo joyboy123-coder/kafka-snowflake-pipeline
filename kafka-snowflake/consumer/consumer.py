@@ -83,7 +83,7 @@ def consume_kafka():
 
             # Bulk insert into Snowflake
             cleaned_df.reset_index(drop=True, inplace=True)  # Reset index before writing
-            success, num_rows, _ = write_pandas(conn, cleaned_df, "MY_TABLE", auto_create_table=True)
+            success, num_rows, _ = write_pandas(conn, cleaned_df, "YOUR_TABLE", auto_create_table=True) #give ur own snowflake table name
             logging.info(f"✅ Inserted {num_rows} rows into Snowflake successfully.")
 
             batch_data.clear()  # Reset batch

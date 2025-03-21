@@ -1,1 +1,20 @@
-{} 
+{
+  "kafka": {
+    "bootstrap_servers": "localhost:9092",  // Kafka broker address
+    "topic": "your_topic_name",  // Kafka topic to produce/consume messages
+    "group_id": "your_consumer_group"  // Consumer group ID for Kafka
+  },
+  "snowflake": {
+    "account": "your_snowflake_account",  // Snowflake account name
+    "user": "your_username",  // Snowflake username
+    "password": "your_password",  // Snowflake password (consider using environment variables instead of storing here)
+    "warehouse": "your_warehouse",  // Snowflake warehouse
+    "database": "your_database",  // Snowflake database name
+    "schema": "your_schema",  // Snowflake schema
+    "table": "your_table"  // Target table in Snowflake
+  },
+  "logging": {
+    "log_file": "logs/app.log",  // Log file path
+    "log_level": "INFO"  // Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  }
+}

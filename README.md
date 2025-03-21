@@ -82,10 +82,3 @@ This project builds a **real-time data pipeline** that streams data from **Kafka
 
 ---
 
-## 🎯 Next Steps  
-✅ **Test with real-time data sources** (APIs, logs, IoT).  
-✅ **Improve error handling** to handle failed inserts.  
-✅ **Optimize performance** by increasing batch sizes.  
-✅ **Automate deployment** using Docker/Kubernetes.  
-
----
